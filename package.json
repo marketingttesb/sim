@@ -1,0 +1,10 @@
+{
+  "name": "sim",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup": "node setup.mjs",
+    "postinstall": "node setup.mjs"
+  },
+  "description": "SIM project — AI agent simulator & environment installer"
+}

@@ -11,7 +11,8 @@ D:\Dev\sim\
 ```
 
 ## Key Commands
-<!-- e.g. npm run dev, npm test, npm run lint -->
+- `npm run setup` — full environment install (npm prefix, MCP memory, skills, config, junction)
+- `npm install` — auto-runs setup via postinstall hook
 
 ## Git
 ```

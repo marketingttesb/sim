@@ -1,0 +1,17 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "memory": {
+      "type": "local",
+      "command": ["node", "D:\\Apps\\OpenCode\\mcp-memory\\server.mjs"],
+      "enabled": true
+    }
+  },
+  "permission": {
+    "external_directory": {
+      "D:\\Apps\\OpenCode\\memory\\**": "allow",
+      "D:\\Apps\\OpenCode\\mcp-memory\\**": "allow",
+      "*": "ask"
+    }
+  }
+}
